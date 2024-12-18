@@ -4,9 +4,9 @@ import QuestsCards from './MainComponents/QuestsCards';
 
 function Main(): JSX.Element {
   return (
-    <div className="flex justify-center bg-custom-gradient pt-[122px]">
+    <div className="flex justify-center bg-custom-gradient ">
       <div className="container">
-        <div className="">
+        <div className="pt-[122px] pr-[136px] pl-[150px] pb-[48px]">
           <MainTitle />
           <MainMenu/>
           <QuestsCards/>

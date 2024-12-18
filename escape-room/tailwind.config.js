@@ -22,9 +22,6 @@ module.exports = {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(0deg, #141414 0%, #1F1D1D 100%)',
       },
-      lineHeight: {
-        140: '1.4', // 140% высоты строки
-      },
     },
   },
   plugins: [

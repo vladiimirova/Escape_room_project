@@ -1,12 +1,10 @@
 function MainTitle(): JSX.Element {
     return (
-      <div className="flex justify-center">
-        <div className="container">
+      <div className="mb-[53px]">
           <div className="">
-           <p className="text-orange">квести у Харкові</p>
-           <h1 className="text-white">Виберіть тематику</h1>
+           <p className="text-orange text-[14px] font-raleway font-500">квести у Харкові</p>
+           <h1 className="text-white text-[64px] font-raleway font-800">Виберіть тематику</h1>
           </div>
-        </div>
       </div>
     );
   }
