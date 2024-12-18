@@ -15,3 +15,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway-regular.woff2') format('woff2');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway-medium.woff2') format('woff2');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway-semibold.woff2') format('woff2');
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway-bold.woff2') format('woff2');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway-extrabold.woff2') format('woff2');
+  font-weight: 800; /* ExtraBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway-black.woff2') format('woff2');
+  font-weight: 900; /* Black */
+  font-style: normal;
+}

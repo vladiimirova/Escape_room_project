@@ -4,20 +4,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-light-blue': '#F6F7FF',
-        black: '#1F1E25',
-        gray: '#707C87',
-        hover: '#2C36F2',
-        white: '#FFFFFF',
-        'gray-light': '#E0E1EA',
-        'gray-line': '#C1C2CA',
+        orange: '#F2890F',
       },
       fontFamily: {
-        'work-sans': ['Work Sans', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+      },
+      fontWeight: {
+        500: '500', // Medium
+        600: '600', // SemiBold
+        700: '700', // Bold
+        800: '800', // ExtraBold
+        900: '900', // Black
+      },
+      letterSpacing: {
+        'extra-sm': '0.42px',
       },
       backgroundImage: {
-        'custom-bg': "url('/public/img/bg.png')",
+        'custom-gradient': 'linear-gradient(0deg, #141414 0%, #1F1D1D 100%)',
       },
       lineHeight: {
         140: '1.4', // 140% высоты строки
