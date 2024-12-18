@@ -68,9 +68,7 @@ const items = [
     imageUrl: './img/preview-final-frontier.jpg',
     count: '4-7',
     text: 'складний',
-  },
-
-
+  }
 ];
 
 function QuestsCards(): JSX.Element {
