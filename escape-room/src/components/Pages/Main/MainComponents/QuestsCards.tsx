@@ -55,13 +55,30 @@ const items = [
     count: '2-3',
     text: 'легкий',
   },
+
+  {
+    title: 'Iсторія привидів',
+    imageUrl: './img/preview-ghost-story.jpg',
+    count: '3-5',
+    text: 'середній',
+  },
+
+  {
+    title: 'Кінцевий кордон',
+    imageUrl: './img/preview-final-frontier.jpg',
+    count: '4-7',
+    text: 'складний',
+  },
+
+
 ];
 
 function QuestsCards(): JSX.Element {
   return (
     <div className="flex justify-center">
-        <div className="flex flex-wrap gap-x-[24px] gap-y-[32px]">
-          {items.map((item, index) => (
+      <div className="flex flex-wrap gap-x-[24px] gap-y-[32px]">
+        {items.map(function(item, index) {
+          return (
             <Card
               key={index}
               title={item.title}
@@ -69,7 +86,8 @@ function QuestsCards(): JSX.Element {
               count={item.count}
               text={item.text}
             />
-          ))}
+          );
+        })}
       </div>
     </div>
   );
