@@ -6,7 +6,7 @@ function Main(): JSX.Element {
   return (
     <div className="flex justify-center bg-custom-gradient ">
       <div className="container">
-        <div className="pt-[122px] pr-[136px] pl-[150px] pb-[48px]">
+        <div className="pt-[122px] pr-[136px] pl-[150px] pb-[35px]">
           <MainTitle />
           <MainMenu/>
           <QuestsCards/>

@@ -3,7 +3,7 @@ function Contact(): JSX.Element {
     <div className="text-white">
       <a
         href="tel:8 (800) 333-55-99"
-        className="hover:text-hover-orange tracking-extra-sm align-middle text-[14px]"
+        className="hover:text-orange tracking-extra-sm align-middle text-[14px]"
       >
        <span className="relative top-[2px]">8 (800)</span> 333-55-99
       </a>

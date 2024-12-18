@@ -1,14 +1,16 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 function Footer(): JSX.Element {
-    return (
+  return (
+    <div className="fixed bottom-[24px] left-[56px]  text-white py-[10px]">
       <div className="flex justify-center">
-        <div className="container">
-          <div className="">
-  aa
-          </div>
-        </div>
+        <FontAwesomeIcon icon={faInstagram} className="w-[28px] h-[28px] mr-[10px]" />
+        <FontAwesomeIcon icon={faFacebook} className="w-[28px] h-[28px]" />
       </div>
-    );
-  }
-  
-  export default Footer;
-  
+    </div>
+  );
+}
+
+export default Footer;

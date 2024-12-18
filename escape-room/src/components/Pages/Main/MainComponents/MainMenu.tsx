@@ -43,10 +43,8 @@ function MainMenu(): JSX.Element {
               <button className="flex items-center">
                 <img src={item.imageUrl} alt={item.descr} className="mr-[12px]" />
                 
-                {/* Текст внутри inline-block, чтобы линия подчеркивания соответствовала только ему */}
                 <span className="inline-block relative group">
                   {item.text}
-                  {/* Псевдо-элемент для подчеркивания */}
                   <span className="absolute bottom-[-4px] left-0 block w-0 h-[3px] bg-orange transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </button>
