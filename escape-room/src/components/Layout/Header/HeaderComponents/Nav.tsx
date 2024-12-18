@@ -17,13 +17,15 @@ function Nav(): JSX.Element {
   return (
     <div className='mr-[7px]'>
       <ul className="flex justify-center items-center gap-[47px] text-white text-[14px]">
-        {navItems.map((item) => (
-          <li key={item.to} className="hover:text-orange tracking-extra-sm">
-            <Link to={item.to}>
-              {item.text}
-            </Link>
-          </li>
-        ))}
+        {navItems.map(function(item) {
+          return (
+            <li key={item.to} className="hover:text-orange tracking-extra-sm">
+              <Link to={item.to}>
+                {item.text}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
