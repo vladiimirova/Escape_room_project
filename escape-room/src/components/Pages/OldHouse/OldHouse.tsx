@@ -6,7 +6,7 @@ function OldHouse(): JSX.Element {
   return (
     <div className="flex justify-center bg-old-house bg-cover bg-no-repeat min-h-[896px]">
       <div className="container">
-        <div className="pt-[275px] pr-[136px] pl-[150px] pb-[35px]">
+        <div className="pt-[256px] pr-[136px] pl-[150px] pb-[35px]">
           <TitleQuests
             text="детектив"
             title="ТАЄМНИЦІ СТАРОГО ОСОБНЯКУ"

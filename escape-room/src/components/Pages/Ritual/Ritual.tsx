@@ -6,7 +6,7 @@ function Ritual(): JSX.Element {
   return (
     <div className="flex justify-center bg-ritual bg-cover bg-no-repeat min-h-[896px]">
       <div className="container">
-        <div className="pt-[283px] pr-[136px] pl-[150px] pb-[35px]">
+        <div className="pt-[267px] pr-[136px] pl-[150px] pb-[35px]">
           <TitleQuests text="містика" title="РИТУАЛ" className="ml-[762px]" />
           <DescrQuests
             text="складний"

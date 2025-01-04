@@ -667,6 +667,10 @@ video {
   margin-left: 705px;
 }
 
+.ml-\[762px\] {
+  margin-left: 762px;
+}
+
 .mr-\[10px\] {
   margin-right: 10px;
 }
@@ -699,16 +703,20 @@ video {
   margin-top: 8px;
 }
 
-.ml-\[774px\] {
-  margin-left: 774px;
+.ml-\[529px\] {
+  margin-left: 529px;
 }
 
-.ml-\[7px\] {
-  margin-left: 7px;
+.mt-\[25px\] {
+  margin-top: 25px;
 }
 
-.ml-\[762px\] {
-  margin-left: 762px;
+.mt-\[27px\] {
+  margin-top: 27px;
+}
+
+.ml-\[518px\] {
+  margin-left: 518px;
 }
 
 .block {
@@ -846,6 +854,10 @@ video {
   background-image: url('/public/img/cover-ritual.jpg');
 }
 
+.bg-fatal-exp {
+  background-image: url('/public/img/cover-fatal-exp.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -903,20 +915,20 @@ video {
   padding-top: 275px;
 }
 
-.pt-\[345px\] {
-  padding-top: 345px;
-}
-
-.pt-\[3px\] {
-  padding-top: 3px;
-}
-
-.pt-\[351px\] {
-  padding-top: 351px;
-}
-
 .pt-\[283px\] {
   padding-top: 283px;
+}
+
+.pt-\[170px\] {
+  padding-top: 170px;
+}
+
+.pt-\[267px\] {
+  padding-top: 267px;
+}
+
+.pt-\[256px\] {
+  padding-top: 256px;
 }
 
 .align-middle {
@@ -945,6 +957,10 @@ video {
 
 .text-\[92px\] {
   font-size: 92px;
+}
+
+.text-\[100px\] {
+  font-size: 100px;
 }
 
 .font-500 {
@@ -987,6 +1003,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .transition-all {
