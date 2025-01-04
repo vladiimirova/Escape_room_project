@@ -5,11 +5,12 @@ interface DescrProps {
   time: string;
   count: string;
   descr: string;
+  className?: string;
 }
 
-const TitleQuests: React.FC<DescrProps> = ({ text, time, count, descr }) => {
+function TitleQuests({ text, time, count, descr, className }: DescrProps): JSX.Element {
   return (
-    <div className="ml-[540px]">
+    <div className={className}>
       <div className="flex text-white text-[14px] font-raleway font-400 mb-[26px]">
         <div className="flex items-center">
           <img
@@ -19,7 +20,11 @@ const TitleQuests: React.FC<DescrProps> = ({ text, time, count, descr }) => {
           />
           <p>{time} хв</p>
         </div>
-        <img src="./icons/Vector2.svg" alt="veritical-divide" className='ml-[21px] mr-[24px]'/>
+        <img
+          src="./icons/Vector2.svg"
+          alt="veritical-divide"
+          className="ml-[21px] mr-[24px]"
+        />
         <div className="flex items-center">
           <img
             src="./icons/icon-person.svg"
@@ -28,7 +33,11 @@ const TitleQuests: React.FC<DescrProps> = ({ text, time, count, descr }) => {
           />
           <p>{count} люд</p>
         </div>
-        <img src="./icons/Vector2.svg" alt="veritical-divide" className='ml-[25px] mr-[24px]'/>
+        <img
+          src="./icons/Vector2.svg"
+          alt="veritical-divide"
+          className="ml-[25px] mr-[24px]"
+        />
         <div className="flex items-center">
           <img
             src="./icons/icon-puzzle.svg"

@@ -1,9 +1,17 @@
 import React from 'react';
 
-function BtnTemp(): JSX.Element {
+interface BtnTempProps {
+  className?: string; // Опциональный класс
+}
+
+function BtnTemp({ className = '' }: BtnTempProps): JSX.Element {
   return (
     <div>
-      <button className="bg-background-orange ml-[540px] w-[250px] h-[65px] rounded-[65px] text-white font-raleway font-800 text-[17px]">ЗАБРОНЮВАТИ</button>;
+      <button
+        className={`bg-background-orange  w-[250px] h-[65px] rounded-[65px] text-white font-raleway font-800 text-[17px] ${className}`}
+      >
+        ЗАБРОНЮВАТИ
+      </button>
     </div>
   );
 }

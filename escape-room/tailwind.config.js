@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(0deg, #141414 0%, #1F1D1D 100%)',
         'maniac-bg': "url('/public/img/cover-maniac.jpg')",   
+        'old-house': "url('/public/img/cover-old-house.jpg')",
       },
     },
   },
