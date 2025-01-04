@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         orange: '#F2890F',
+        'background-orange': '#F28A0F',
       },
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],
@@ -21,6 +22,7 @@ module.exports = {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(0deg, #141414 0%, #1F1D1D 100%)',
+        'maniac-bg': "url('/public/img/cover-maniac.jpg')",   
       },
     },
   },
