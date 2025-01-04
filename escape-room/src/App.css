@@ -699,6 +699,18 @@ video {
   margin-top: 8px;
 }
 
+.ml-\[774px\] {
+  margin-left: 774px;
+}
+
+.ml-\[7px\] {
+  margin-left: 7px;
+}
+
+.ml-\[762px\] {
+  margin-left: 762px;
+}
+
 .block {
   display: block;
 }
@@ -830,6 +842,10 @@ video {
   background-image: url('/public/img/cover-old-house.jpg');
 }
 
+.bg-ritual {
+  background-image: url('/public/img/cover-ritual.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -885,6 +901,22 @@ video {
 
 .pt-\[275px\] {
   padding-top: 275px;
+}
+
+.pt-\[345px\] {
+  padding-top: 345px;
+}
+
+.pt-\[3px\] {
+  padding-top: 3px;
+}
+
+.pt-\[351px\] {
+  padding-top: 351px;
+}
+
+.pt-\[283px\] {
+  padding-top: 283px;
 }
 
 .align-middle {

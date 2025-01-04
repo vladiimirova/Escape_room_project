@@ -24,6 +24,7 @@ module.exports = {
         'custom-gradient': 'linear-gradient(0deg, #141414 0%, #1F1D1D 100%)',
         'maniac-bg': "url('/public/img/cover-maniac.jpg')",   
         'old-house': "url('/public/img/cover-old-house.jpg')",
+        ritual: "url('/public/img/cover-ritual.jpg')",
       },
     },
   },
