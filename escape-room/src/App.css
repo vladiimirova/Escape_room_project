@@ -711,6 +711,10 @@ video {
   margin-top: 27px;
 }
 
+.ml-\[721px\] {
+  margin-left: 721px;
+}
+
 .block {
   display: block;
 }
@@ -741,10 +745,6 @@ video {
 
 .h-\[74px\] {
   height: 74px;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .min-h-\[896px\] {
@@ -846,6 +846,10 @@ video {
   background-image: url('/public/img/cover-maniac.jpg');
 }
 
+.bg-mars-2056 {
+  background-image: url('/public/img/cover-mars-2056.jpg');
+}
+
 .bg-old-house {
   background-image: url('/public/img/cover-old-house.jpg');
 }
@@ -858,24 +862,16 @@ video {
   background-image: url('/public/img/cover-sklep.jpg');
 }
 
-.bg-mars-2056 {
-  background-image: url('/public/img/cover-mars-2056.jpg');
+.bg-house-in-the-woods {
+  background-image: url('/public/img/cover-house-in-the-woods.jpg');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-center {
   background-position: center;
-}
-
-.bg-bottom {
-  background-position: bottom;
 }
 
 .bg-no-repeat {
@@ -941,6 +937,10 @@ video {
 
 .pt-\[267px\] {
   padding-top: 267px;
+}
+
+.pt-\[259px\] {
+  padding-top: 259px;
 }
 
 .align-middle {

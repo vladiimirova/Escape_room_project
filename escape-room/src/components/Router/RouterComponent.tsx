@@ -6,7 +6,7 @@ import Ritual from '../Pages/Ritual/Ritual';
 import FatalExp from '../Pages/FatalExp/FatalExp';
 import Sklep from '../Pages/Sklep/Sklep';
 import Mars2056 from '../Pages/Mars2056/Mars2056';
-
+import HouseInTheWoods from '../Pages/HouseInTheWoods/HouseInTheWoods';
 
 function RouterComponent(): JSX.Element {
   return (
@@ -19,6 +19,7 @@ function RouterComponent(): JSX.Element {
         <Route path="/fatal-experiment" element={<FatalExp />} />
         <Route path="/sklep" element={<Sklep />} />
         <Route path="/mars-2056" element={<Mars2056 />} />
+        <Route path="/house-in-the-woods" element={<HouseInTheWoods />} />
       </Routes>
     </div>
   );
