@@ -719,6 +719,18 @@ video {
   margin-top: 27px;
 }
 
+.ml-\[740px\] {
+  margin-left: 740px;
+}
+
+.ml-\[640px\] {
+  margin-left: 640px;
+}
+
+.ml-\[680px\] {
+  margin-left: 680px;
+}
+
 .block {
   display: block;
 }
@@ -846,6 +858,10 @@ video {
   background-image: url('/public/img/cover-fatal-exp.jpg');
 }
 
+.bg-ghost-story {
+  background-image: url('/public/img/cover-ghost-story.jpg');
+}
+
 .bg-house-in-the-woods {
   background-image: url('/public/img/cover-house-in-the-woods.jpg');
 }
@@ -957,30 +973,6 @@ video {
 
 .pt-\[267px\] {
   padding-top: 267px;
-}
-
-.pt-\[219px\] {
-  padding-top: 219px;
-}
-
-.pt-\[224px\] {
-  padding-top: 224px;
-}
-
-.pt-\[225px\] {
-  padding-top: 225px;
-}
-
-.pt-\[226px\] {
-  padding-top: 226px;
-}
-
-.pt-\[227px\] {
-  padding-top: 227px;
-}
-
-.pt-\[2px\] {
-  padding-top: 2px;
 }
 
 .pt-\[270px\] {

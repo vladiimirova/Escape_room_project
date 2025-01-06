@@ -31,6 +31,8 @@ module.exports = {
         'house-in-the-woods': "url('/public/img/cover-house-in-the-woods.jpg')",
         'metro-2033': "url('/public/img/cover-metro2033.jpg')",
         'old-ceil': "url('/public/img/cover-old-ceil.jpg')",
+        'ghost-story': "url('/public/img/cover-ghost-story.jpg')",
+        
       },
     },
   },

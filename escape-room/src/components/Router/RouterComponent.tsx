@@ -9,6 +9,7 @@ import Mars2056 from '../Pages/Mars2056/Mars2056';
 import HouseInTheWoods from '../Pages/HouseInTheWoods/HouseInTheWoods';
 import Metro2033 from '../Pages/Metro2033/Metro2033';
 import OldCeil from '../Pages/OldCeil/OldCeil';
+import GhostStory from '../Pages/GhostStory/GhostStory';
 
 function RouterComponent(): JSX.Element {
   return (
@@ -24,8 +25,7 @@ function RouterComponent(): JSX.Element {
         <Route path="/house-in-the-woods" element={<HouseInTheWoods />} />
         <Route path="/metro-2033" element={<Metro2033 />} />
         <Route path="/old-ceil" element={<OldCeil />} />
-
-        
+        <Route path="/ghost-story" element={<GhostStory />} />     
       </Routes>
     </div>
   );
