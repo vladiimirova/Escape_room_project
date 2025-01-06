@@ -32,7 +32,7 @@ module.exports = {
         'metro-2033': "url('/public/img/cover-metro2033.jpg')",
         'old-ceil': "url('/public/img/cover-old-ceil.jpg')",
         'ghost-story': "url('/public/img/cover-ghost-story.jpg')",
-        
+        'final-frontier': "url('/public/img/cover-final-frontier.jpg')",
       },
     },
   },

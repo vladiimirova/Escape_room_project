@@ -671,6 +671,10 @@ video {
   margin-left: 659px;
 }
 
+.ml-\[680px\] {
+  margin-left: 680px;
+}
+
 .ml-\[705px\] {
   margin-left: 705px;
 }
@@ -717,18 +721,6 @@ video {
 
 .mt-\[27px\] {
   margin-top: 27px;
-}
-
-.ml-\[740px\] {
-  margin-left: 740px;
-}
-
-.ml-\[640px\] {
-  margin-left: 640px;
-}
-
-.ml-\[680px\] {
-  margin-left: 680px;
 }
 
 .block {
@@ -858,6 +850,10 @@ video {
   background-image: url('/public/img/cover-fatal-exp.jpg');
 }
 
+.bg-final-frontier {
+  background-image: url('/public/img/cover-final-frontier.jpg');
+}
+
 .bg-ghost-story {
   background-image: url('/public/img/cover-ghost-story.jpg');
 }
@@ -977,6 +973,14 @@ video {
 
 .pt-\[270px\] {
   padding-top: 270px;
+}
+
+.pt-\[200px\] {
+  padding-top: 200px;
+}
+
+.pt-\[210px\] {
+  padding-top: 210px;
 }
 
 .align-middle {
