@@ -26,6 +26,7 @@ module.exports = {
         'old-house': "url('/public/img/cover-old-house.jpg')",
         ritual: "url('/public/img/cover-ritual.jpg')",
         'fatal-exp': "url('/public/img/cover-fatal-exp.jpg')",
+        sklep: "url('/public/img/cover-sklep.jpg')",
       },
     },
   },

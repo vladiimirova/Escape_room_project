@@ -4,6 +4,8 @@ import Maniac from '../Pages/Maniac/Maniac';
 import OldHouse from '../Pages/OldHouse/OldHouse';
 import Ritual from '../Pages/Ritual/Ritual';
 import FatalExp from '../Pages/FatalExp/FatalExp';
+import Sklep from '../Pages/Sklep/Sklep';
+
 
 function RouterComponent(): JSX.Element {
   return (
@@ -14,6 +16,7 @@ function RouterComponent(): JSX.Element {
         <Route path="/old-house" element={<OldHouse />} />
         <Route path="/ritual" element={<Ritual />} />
         <Route path="/fatal-experiment" element={<FatalExp />} />
+        <Route path="/sklep" element={<Sklep />} />
       </Routes>
     </div>
   );

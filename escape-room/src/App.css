@@ -659,6 +659,10 @@ video {
   margin-left: 40px;
 }
 
+.ml-\[518px\] {
+  margin-left: 518px;
+}
+
 .ml-\[540px\] {
   margin-left: 540px;
 }
@@ -699,24 +703,16 @@ video {
   margin-top: 24px;
 }
 
-.mt-\[8px\] {
-  margin-top: 8px;
-}
-
-.ml-\[529px\] {
-  margin-left: 529px;
-}
-
-.mt-\[25px\] {
-  margin-top: 25px;
-}
-
 .mt-\[27px\] {
   margin-top: 27px;
 }
 
-.ml-\[518px\] {
-  margin-left: 518px;
+.ml-\[5px\] {
+  margin-left: 5px;
+}
+
+.ml-\[659px\] {
+  margin-left: 659px;
 }
 
 .block {
@@ -842,6 +838,10 @@ video {
   background-image: linear-gradient(0deg, #141414 0%, #1F1D1D 100%);
 }
 
+.bg-fatal-exp {
+  background-image: url('/public/img/cover-fatal-exp.jpg');
+}
+
 .bg-maniac-bg {
   background-image: url('/public/img/cover-maniac.jpg');
 }
@@ -854,8 +854,8 @@ video {
   background-image: url('/public/img/cover-ritual.jpg');
 }
 
-.bg-fatal-exp {
-  background-image: url('/public/img/cover-fatal-exp.jpg');
+.bg-sklep {
+  background-image: url('/public/img/cover-sklep.jpg');
 }
 
 .bg-cover {
@@ -907,28 +907,24 @@ video {
   padding-top: 122px;
 }
 
+.pt-\[170px\] {
+  padding-top: 170px;
+}
+
 .pt-\[214px\] {
   padding-top: 214px;
 }
 
-.pt-\[275px\] {
-  padding-top: 275px;
-}
-
-.pt-\[283px\] {
-  padding-top: 283px;
-}
-
-.pt-\[170px\] {
-  padding-top: 170px;
+.pt-\[256px\] {
+  padding-top: 256px;
 }
 
 .pt-\[267px\] {
   padding-top: 267px;
 }
 
-.pt-\[256px\] {
-  padding-top: 256px;
+.pt-\[250px\] {
+  padding-top: 250px;
 }
 
 .align-middle {
@@ -957,10 +953,6 @@ video {
 
 .text-\[92px\] {
   font-size: 92px;
-}
-
-.text-\[100px\] {
-  font-size: 100px;
 }
 
 .font-500 {
@@ -1003,11 +995,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .transition-all {
