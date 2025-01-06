@@ -30,6 +30,7 @@ module.exports = {
         'mars-2056': "url('/public/img/cover-mars-2056.jpg')",
         'house-in-the-woods': "url('/public/img/cover-house-in-the-woods.jpg')",
         'metro-2033': "url('/public/img/cover-metro2033.jpg')",
+        'old-ceil': "url('/public/img/cover-old-ceil.jpg')",
       },
     },
   },

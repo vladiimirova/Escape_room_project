@@ -683,6 +683,10 @@ video {
   margin-left: 762px;
 }
 
+.ml-\[774px\] {
+  margin-left: 774px;
+}
+
 .mr-\[10px\] {
   margin-right: 10px;
 }
@@ -713,10 +717,6 @@ video {
 
 .mt-\[27px\] {
   margin-top: 27px;
-}
-
-.ml-\[774px\] {
-  margin-left: 774px;
 }
 
 .block {
@@ -862,6 +862,10 @@ video {
   background-image: url('/public/img/cover-metro2033.jpg');
 }
 
+.bg-old-ceil {
+  background-image: url('/public/img/cover-old-ceil.jpg');
+}
+
 .bg-old-house {
   background-image: url('/public/img/cover-old-house.jpg');
 }
@@ -935,6 +939,10 @@ video {
   padding-top: 214px;
 }
 
+.pt-\[221px\] {
+  padding-top: 221px;
+}
+
 .pt-\[250px\] {
   padding-top: 250px;
 }
@@ -951,8 +959,32 @@ video {
   padding-top: 267px;
 }
 
-.pt-\[221px\] {
-  padding-top: 221px;
+.pt-\[219px\] {
+  padding-top: 219px;
+}
+
+.pt-\[224px\] {
+  padding-top: 224px;
+}
+
+.pt-\[225px\] {
+  padding-top: 225px;
+}
+
+.pt-\[226px\] {
+  padding-top: 226px;
+}
+
+.pt-\[227px\] {
+  padding-top: 227px;
+}
+
+.pt-\[2px\] {
+  padding-top: 2px;
+}
+
+.pt-\[270px\] {
+  padding-top: 270px;
 }
 
 .align-middle {
