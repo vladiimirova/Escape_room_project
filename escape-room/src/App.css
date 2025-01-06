@@ -667,6 +667,10 @@ video {
   margin-left: 540px;
 }
 
+.ml-\[659px\] {
+  margin-left: 659px;
+}
+
 .ml-\[705px\] {
   margin-left: 705px;
 }
@@ -707,14 +711,6 @@ video {
   margin-top: 27px;
 }
 
-.ml-\[5px\] {
-  margin-left: 5px;
-}
-
-.ml-\[659px\] {
-  margin-left: 659px;
-}
-
 .block {
   display: block;
 }
@@ -745,6 +741,10 @@ video {
 
 .h-\[74px\] {
   height: 74px;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .min-h-\[896px\] {
@@ -858,8 +858,24 @@ video {
   background-image: url('/public/img/cover-sklep.jpg');
 }
 
+.bg-mars-2056 {
+  background-image: url('/public/img/cover-mars-2056.jpg');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .bg-no-repeat {
@@ -915,16 +931,16 @@ video {
   padding-top: 214px;
 }
 
+.pt-\[250px\] {
+  padding-top: 250px;
+}
+
 .pt-\[256px\] {
   padding-top: 256px;
 }
 
 .pt-\[267px\] {
   padding-top: 267px;
-}
-
-.pt-\[250px\] {
-  padding-top: 250px;
 }
 
 .align-middle {
