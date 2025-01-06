@@ -7,7 +7,7 @@ function Sklep(): JSX.Element {
     <div className="flex justify-center bg-sklep bg-cover bg-no-repeat min-h-[896px]">
       <div className="container">
         <div className="pt-[250px] pr-[136px] pl-[150px] pb-[35px]">
-          <TitleQuests text="містика" title="РИТУАЛ"  className="ml-[659px]" />
+          <TitleQuests text="жахи" title="СКЛЕП"  className="ml-[659px]" />
           <DescrQuests
             text="складний"
             time="120"
