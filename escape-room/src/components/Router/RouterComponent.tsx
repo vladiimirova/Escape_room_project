@@ -7,6 +7,7 @@ import FatalExp from '../Pages/FatalExp/FatalExp';
 import Sklep from '../Pages/Sklep/Sklep';
 import Mars2056 from '../Pages/Mars2056/Mars2056';
 import HouseInTheWoods from '../Pages/HouseInTheWoods/HouseInTheWoods';
+import Metro2033 from '../Pages/Metro2033/Metro2033';
 
 function RouterComponent(): JSX.Element {
   return (
@@ -20,6 +21,7 @@ function RouterComponent(): JSX.Element {
         <Route path="/sklep" element={<Sklep />} />
         <Route path="/mars-2056" element={<Mars2056 />} />
         <Route path="/house-in-the-woods" element={<HouseInTheWoods />} />
+        <Route path="/metro-2033" element={<Metro2033 />} />
       </Routes>
     </div>
   );

@@ -675,6 +675,10 @@ video {
   margin-left: 705px;
 }
 
+.ml-\[721px\] {
+  margin-left: 721px;
+}
+
 .ml-\[762px\] {
   margin-left: 762px;
 }
@@ -711,8 +715,8 @@ video {
   margin-top: 27px;
 }
 
-.ml-\[721px\] {
-  margin-left: 721px;
+.ml-\[774px\] {
+  margin-left: 774px;
 }
 
 .block {
@@ -842,12 +846,20 @@ video {
   background-image: url('/public/img/cover-fatal-exp.jpg');
 }
 
+.bg-house-in-the-woods {
+  background-image: url('/public/img/cover-house-in-the-woods.jpg');
+}
+
 .bg-maniac-bg {
   background-image: url('/public/img/cover-maniac.jpg');
 }
 
 .bg-mars-2056 {
   background-image: url('/public/img/cover-mars-2056.jpg');
+}
+
+.bg-metro-2033 {
+  background-image: url('/public/img/cover-metro2033.jpg');
 }
 
 .bg-old-house {
@@ -860,10 +872,6 @@ video {
 
 .bg-sklep {
   background-image: url('/public/img/cover-sklep.jpg');
-}
-
-.bg-house-in-the-woods {
-  background-image: url('/public/img/cover-house-in-the-woods.jpg');
 }
 
 .bg-cover {
@@ -935,12 +943,16 @@ video {
   padding-top: 256px;
 }
 
+.pt-\[259px\] {
+  padding-top: 259px;
+}
+
 .pt-\[267px\] {
   padding-top: 267px;
 }
 
-.pt-\[259px\] {
-  padding-top: 259px;
+.pt-\[221px\] {
+  padding-top: 221px;
 }
 
 .align-middle {
